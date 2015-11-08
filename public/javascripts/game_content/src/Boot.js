@@ -24,9 +24,9 @@ BasicGame.Boot.prototype = {
         //  Here we load the assets required for our preloader (in this case a background and a loading bar)
         //this.load.image('preloaderBackground', 'images/preloader_background.jpg');
         //this.load.image('preloaderBar', 'images/preloadr_bar.png');
-        this.load.image('preloaderBarEmpty', './javascripts/game_content/assets/images/sprites/preloader_bar_empty.png');
-        this.load.image('preloaderBarFill', './javascripts/game_content/assets/images/sprites/preloader_bar_fill.png');
-        this.load.image('preloaderBackground','./javascripts/game_content/assets/images/sprites/logo_draft.png');
+        this.load.image('preloaderBarEmpty', './javascripts/game_content/assets/images/sprites/preloaderBarEmpty.png');
+        this.load.image('preloaderBarFill', './javascripts/game_content/assets/images/sprites/preloaderBarFill.png');
+        this.load.image('preloaderBackground','./javascripts/game_content/assets/images/sprites/logoDraft.png');
     },
 
     create: function () {

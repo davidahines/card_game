@@ -15,11 +15,11 @@ BasicGame.Preloader.prototype = {
 
 
 
-        this.load.image('blondeAdventurer', './javascripts/game_content/assets/images/sprites/blonde_adventurer.png');
+
 
 
         //C:\Users\Jonathan\WebstormProjects\steel_your_self\public\javascripts\game_content\assets\images\tilesets
-        this.load.image('worldmapTileset', 'javascripts/game_content/assets/images/tilesets/tilesheet.png');
+
         //	These are the assets we loaded in Boot.js
         //	A nice sparkly background and a loading progress bar
 
@@ -35,9 +35,10 @@ BasicGame.Preloader.prototype = {
 
         //	Here we load the rest of the assets our game needs.
         //	You can find all of these assets in the Phaser Examples repository
-
-
-
+        this.load.image('worldmapTileset', './javascripts/game_content/assets/images/tilesets/worldmapTiles.png');
+        this.load.image('blondeAdventurer', './javascripts/game_content/assets/images/sprites/blondeAdventurer.png');
+        this.load.image('tileableBackground', './javascripts/game_content/assets/images/sprites/tileableBackground.png');
+        this.load.image('titleText', './javascripts/game_content/assets/images/sprites/titleText.png');
 
     },
 

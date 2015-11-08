@@ -2,10 +2,11 @@
 BasicGame.MainMenu = function (game) {
 
     this.bg;
-    this.spriteTopLeft;
-    this.spriteTopRight;
-    this.spriteBottomLeft;
-    this.spriteBottomRight;
+    this.titleText;
+    //this.spriteTopLeft;
+    //this.spriteTopRight;
+    //this.spriteBottomLeft;
+    //this.spriteBottomRight;
 
 };
 
@@ -13,8 +14,8 @@ BasicGame.MainMenu.prototype = {
 
     create: function () {
 
-        this.bg = this.add.sprite(0, 0, this.game.width, this.game.height, 'preloaderBackground');
-
+        this.bg = this.add.tileSprite(0, 0, this.game.width, this.game.height, 'tileableBackground');
+        this.titleText = this.add.sprite(0, 0, 'titleText');
 
 
 
