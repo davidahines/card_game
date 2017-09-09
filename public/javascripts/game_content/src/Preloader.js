@@ -13,23 +13,9 @@ BasicGame.Preloader.prototype = {
 
     preload: function () {
 
-
-
-
-
-
-        //C:\Users\Jonathan\WebstormProjects\steel_your_self\public\javascripts\game_content\assets\images\tilesets
-
-        //	These are the assets we loaded in Boot.js
-        //	A nice sparkly background and a loading progress bar
-
         this.background = this.add.sprite(0, 0, 'preloaderBackground');
         this.preloadBar = this.add.sprite(300, 400, 'preloaderBarEmpty');
         this.preloadBarFill = this.add.sprite(300, 400, 'preloaderBarFill');
-
-        //	This sets the preloadBar sprite as a loader sprite.
-        //	What that does is automatically crop the sprite from 0 to full-width
-        //	as the files below are loaded in.
 
         this.load.setPreloadSprite(this.preloadBarFill);
 
